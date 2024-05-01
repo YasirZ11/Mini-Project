@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ComputerHub</title>
+    </head>
+    <body bgcolor=" #7FFFD4">
+        
+        
+        <form>
+            <h1 align="center">Student details</h1>
+        
+       <center> <img src="H:\Web App Dev Folder\Report 4\IMG 1.jpg" alt="Student PNG Picture"style="height: 100px; width: 100px;"></center><br/>
+          
+            <li>First Name : <input type="text" name="name" required/></li> <br/>
+            <li>Last Name  : <input type="text" name="lname" required/></li><br/>
+            <li>E-Mail : <input type="text" name="email" required/></li><br/>
+            <li>Reg No: <input type="text" name="regno" required/></li><br/>
+            <li>Contact No: <input type="text" name="contactnumber" required/></li><br/>
+            <li>Gender:
+            <input type="radio" name="gender" value="male"/> Male 
+            <input type="radio" name="gender" value="female"/> Female <br/><br></li>
+            
+            <li>Faculty:<br>
+            <input type="radio" name="faculty" value="SC"/> Faculty of Science<br/>
+            <input type="radio" name="faculty" value="com"/> Faculty of Commerce & Management <br/>
+            <input type="radio" name="faculty" value="tec"/> Faculty of Technology <br/>
+            <input type="radio" name="faculty" value="agri"/> Faculty of Agriculture<br/>
+            <input type="radio" name="faculty" value="healthcare"/> Faculty of Health Care<br/>
+            <input type="radio" name="faculty" value="applied"/> Faculty of Applied Science <br/><br/></li>
+            <li>Year of the study : 
+                <select name="yearofthestudy">
+                    <option disabled selected>Select Year</option>
+                    <option value="firstyear">First Year</option>
+                    <option value="secondyear">Second Year</option>  
+                    <option value="thirdyear">Third Year</option> 
+                    <option value="finalyear">Final Year</option>
+                </select>
+            </li><br/>
+            <textarea name="comment" rows="10" cols="35">Enter brief description about you 
+            </textarea><br/>
+        <input type="submit" onclick="alert('Your response is saved successfully')" value="Save"/>
+        <input type="reset"  onclick="alert('Your response is Clearde successfully')"value="Clear"/>
+        </form>
+        
+  
+        
+    </body>
+</html>

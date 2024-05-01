@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Staff Details</title></head>
+        <body bgcolor=" #7FFFD4">
+            <form>
+                <h1 align="center"> Staff Details</h1>
+                <center>  <img src="H:\Web App Dev Folder\Report 4\IMG 2.jpg" alt="Student PNG Picture"height="10%" width="10%" ></center>
+
+                <input type="radio" name="title" value="Mr"/>Mr :
+                <input type="radio" name="title" value="Mrs :"/>Mrs :
+                <input type="radio" name="title" value ="Mis :"/>Miss : <br/><br/>
+                <li>First Name:<input type="text" name="firstname" size="22"required/></li><br/>
+                <li>Last Name:<input type="text" name="Lastname" size="22"required/></li><br/>
+                <li>E-Mail:<input type="text" name="e-mail"size="22"required/></li> <br/>
+                <li>Contact NO :<input type="text" name="contactnumber"size="22"required/></li><br/>
+                <li>Registerd ID :<input type="text" name="R.ID"size="21"required/></li><br/>
+                <li>Faculty:<br/>
+                    <select name=" Faculty">
+                        <option disabled selected>Select Faculty</option>
+                        <option value="FOS">Faculty of Science</option>
+                        <option value="FOC">Faculty of Commerce & Management</option>
+                        <option value="FOT">Faculty of Technology</option>
+                        <option value="FOA">Faculty of Agriculture</option>
+                        <option value="FHCS">Faculty of Health Care Science</option>
+                        <option value="FAS">Faculty Of Applied Science</option>
+                        </select></li><br/>
+                <li>Department:<input Type="Text" name="Deprt" size="22"/></li><br/>
+                <li>Education Qulifications:</li>
+                    <textarea name="Edu Qulifications" rows="10" cols="30">Enter Educational Qulifications here...
+                        
+                    </textarea>
+                <li> Langauge Known:<br/>
+                    
+                        <input type="checkbox" name="English" value="EN"/>English<br/>
+                        <input type="checkbox" name="Sinhal" value="SN"/>Sinhala<br/>
+                        <input type="checkbox" name="Tamil" value="TM"/>Tamil<br/>
+                      
+                    
+                </li><br/>
+                <li>Additional Infomation:</li>
+                    <textarea name="Aditional Information" rows="10" cols="30"> Enter Othe details here...
+                       
+                    </textarea>
+                </li>    <br/>
+            <input type="submit" onclick="alert('Your response is saved successfully')" value="Save"/>
+            <input type="reset"  onclick="alert('Your response is Clearde successfully')"value="Clear"/>
+       
+
+            </form>
+        </body>
+</html>
