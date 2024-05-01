@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Lab 04 </title>
+</head>
+
+<body>
+	<h1 > <center> <font color="#030303"> YASIR ZULFIKAR (Full Stack Developer) 
+</font> </h1>
+
+ <hr width="55%" align="center"> <!-- hr- (horizontal line) tags use for underline--> 
+<p>
+My objective is to apply my software&nbspdevelopment <!--non breaking space-->experience to a challenging role within a dynamic organization.
+With a strong technical background in coding and problem-solving, 
+I am eager to utilize my skills in designing and developing innovative software 
+solutions.I am a dedicated team player with a passion for learning and a desire to 
+contribute to the success of the company.I am a dedicated team player with a passion for learning and a desire to 
+contribute to the success of the company.
+	
+</p>
+
+<ol>
+<li>Mobile</li>
+<li>Web</li>
+<li>ADBMS</li>
+</ol>
+
+<ul>
+<li>Mobile</li>
+<li>Web</li>
+<li>ADBMS</li>
+</ul>
+
+
+<ol>
+<li> CS
+<ul>
+	<li>OOP</li>
+	<li>DBMS</li>
+	<li>VB</li>
+</ul>
+</li>
+
+<li> PHY
+<ul>
+	<li>Gen.phy</li>
+	<li>Waves</li>
+	<li>Statistical Phy</li>
+</ul>
+</li>
+
+<li> Maths
+<ul>
+	<li>Vector</li>
+	<li>Differential Eq</li>
+	<li>Probability</li>
+</ul>
+</li>
+</ol>
+
+<dl>
+	<dt> Cascading Style Sheets </dt>
+		<dd>Style sheets are used to provide presentational suggestions for 
+		documents marked up in HTML </dd>
+		
+</dl>
+
+
+<a href="https://www.w3schools.com/python/"> Python </a>
+<br>
+<br>
+<br>
+
+
+<img src="C:\PS2620\1.jpg" width="20%" height="20%" alt="flower">
+
+<br>
+<br>
+
+
+<table border="2" cellpading="15" cellspacing="5" >
+ 
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Town</th>
+	</tr>
+	
+	<tr>
+		<td>Nipun</td>
+		<td>21</td>
+		<td>Badulla</td>
+	
+	</tr>
+		<td>Kumar</td>
+		<td>23</td>
+		<td>Batti</td>
+	<tr>
+	
+	</tr>
+	
+</table>
+
+</body>
+
+</html>
